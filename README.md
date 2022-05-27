@@ -1,34 +1,36 @@
-# Simple implementation of Taxi-Service!
+# Taxi-Service App
+![](https://t4.ftcdn.net/jpg/01/93/82/25/360_F_193822519_45xqEMvxEpF8X3Wbqdr0dBK1jkXwQwrK.jpg)
 
-3 layers architecture Taxi-Service based on SOLID principles using Servlets and JDBC
 
-## Functionality
--   Add/Delete/ShowAll driver
--   Add/Delete/ShowAll manufacturer
--   Add/Delete/ShowAll car
--   Add driver to car
 
-## Structure
-3 layers architecture
-- Data access layer: DAO
-- Business logic layer: Services
-- Presentation layer: Controllers
 
-## Technologies,
-- Java
-- JDBC + MySQL
-- Servlets
-- JSP + JSTL
-- HTML + CSS
-- Apache Tomcat
+
+This project is an imitation of working taxi service app with:
+- creating, displaying and deleting manufacturers, cars and drivers after user's authentication
+- assigning drivers to cars and displaying available cars for currently authorized user
+
+
+#  Project Description
+
+This Project is based on SOLID principles using Servlets and JDBC as well as on 3-layered architecture, such as:
+
+- Data access layer (DAO)
+
+- Application layer (service)
+
+- Presentation layer (controllers)
+
+## System requirements
+
+- IntelliJ IDEA Ultimate IDEA
+- JAVA 11+
+- Web-server (Apache Tomcat);
+- Database (MySQL);
 - Maven
-- Custom Injector
 
-## How to run project
-1. Clone the project on your IDE
-2. Run the script from resources/init_db_my.sql
-   Check if you don't have DB named taxi. Else configure init_db_my.sql for yourself
-3. In src/main/java/taxi/util/ConnectionUtil replace URL, USERNAME, PASSWORD stubs with your properties.
-4. Configure TomCat Local server
-   Deploy at server startup "web-security:war exploded", application context "/"
-5. Run project!
+## Configure you env
+
+-  First, make sure your env meets requirements listed above
+-  Then clone project on your IDE and run the script from resources/init_db_my.sql in MySQL for creating DB
+-  In src/main/java/taxi/util/ConnectionUtil change URL, USERNAME and PASSWORD with your data
+-  Configure TomCat Local server
