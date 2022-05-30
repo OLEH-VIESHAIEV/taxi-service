@@ -12,7 +12,7 @@ This project is an imitation of working taxi service app with:
 
 #  Project Description
 
-This Project is based on SOLID principles using Servlets and JDBC as well as on 3-layered architecture, such as:
+This Project is based on 3-layered architecture, implemented following SOLID principles:
 
 - Data access layer (DAO)
 
@@ -20,13 +20,19 @@ This Project is based on SOLID principles using Servlets and JDBC as well as on 
 
 - Presentation layer (controllers)
 
+## Technologies:
+- JAVA 11+
+- Servlets
+- JDBC
+- JSTL
+- MySQL
+- Maven
+
 ## System requirements
 
 - IntelliJ IDEA Ultimate IDEA
-- JAVA 11+
-- Web-server (Apache Tomcat);
-- Database (MySQL);
-- Maven
+- Web-server (Apache Tomcat)
+- Database (MySQL)
 
 ## Configure you env
 
